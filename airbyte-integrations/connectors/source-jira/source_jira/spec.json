@@ -16,8 +16,8 @@
       "domain": {
         "type": "string",
         "title": "Domain",
-        "examples": ["domainname.atlassian.net"],
-        "pattern": "^[a-zA-Z0-9._-]*\\.atlassian\\.net$",
+        "examples": ["domainname.atlassian.net", "domainname.jira.com"],
+        "pattern": "(^[a-zA-Z0-9._-]*\\.atlassian\\.net$)|(^[a-zA-Z0-9._-]*\\.jira\\.com$)",
         "description": "The Domain for your Jira account, e.g. airbyteio.atlassian.net"
       },
       "email": {
